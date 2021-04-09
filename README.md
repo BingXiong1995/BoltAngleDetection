@@ -1,6 +1,6 @@
 # BoltAngleDetection
 This application is an implementation of bolt angle detection by FasterRcnn combined with a serial of computer vision processing. The application generates bounding boxes and measures the angle of bolts automatically by taking one photo of bolts
-
+A pre-trained model has been provided in inference_graph folder.
 ![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%871.jpg)
 
 ### Environment
@@ -41,15 +41,16 @@ To measure one bolt angle(without FasterRcnn), run object_measurement.py in bolt
 python object_measurement.py
 ```
 ![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%871.png)
-![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%875.png)
 
 To measure multiple bolts angle with Fasterrcnn combined:
 ```
-python object_measurement.py
+python main.py
 ```
+![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%872.png)
 
+![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%873.png)
 
-
+![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%871.jpg)
 
 
 
