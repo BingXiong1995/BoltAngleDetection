@@ -36,6 +36,17 @@ After getting checkpoints in trainning folder you can generate your faster rcnn 
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_pets.config --trained_checkpoint_prefix training/model.ckpt-XXXX --output_directory inference_graph
 ```
 
+To measure one bolt angle(without FasterRcnn), run object_measurement.py in bolt_angle_v1 folder:
+```
+python object_measurement.py
+```
+![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%871.png)
+![image](https://github.com/BingXiong1995/BoltAngleDetection/blob/main/results/%E5%9B%BE%E7%89%875.png)
+
+To measure multiple bolts angle with Fasterrcnn combined:
+```
+python object_measurement.py
+```
 
 
 
